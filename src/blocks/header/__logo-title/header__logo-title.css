@@ -1,0 +1,12 @@
+.header__logo-title {
+  margin: 0;
+  color: rgb(237, 237, 237);
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  margin-right: 30px;
+  position: relative;
+  bottom: 3px;
+}
