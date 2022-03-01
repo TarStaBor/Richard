@@ -1,0 +1,27 @@
+.header__social-link {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 61px;
+  height: 60px;
+  border-left: 1px rgb(77, 77, 77) solid;
+  text-decoration: none;
+  transition: background-color 3.15s ease-in-out;
+  transition: fill 3.4s ease-in-out;
+}
+
+.header__social-link:last-child {
+  border-right: 1px rgb(77, 77, 77) solid;
+}
+
+.header__social-link:hover {
+  transition: 0.2s linear;
+  background-color: #000;
+}
+
+.header__social-link:hover #test {
+  transition: 0.2s linear;
+  fill: rgb(199, 170, 139);
+}

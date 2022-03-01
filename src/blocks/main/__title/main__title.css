@@ -1,0 +1,15 @@
+.main__title {
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 78px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #fff;
+  height: 60px;
+
+  width: 639px;
+  margin: 69px auto 112px;
+}

@@ -1,13 +1,25 @@
 /*-----vendor-----*/
 @import url(../vendor/normalize.css);
 /*-----fonts-----*/
-@import url(../fonts/RobotoCondensed.css);
+@import url(../fonts/RobotoCondensed/RobotoCondensed.css);
+@import url(../fonts/Vollkorn/Vollkorn.css);
 /*-----header-----*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-title/header__logo-title.css);
 @import url(../blocks/header/__page-links/header__page-links.css);
 @import url(../blocks/header/__page-link/header__page-link.css);
+@import url(../blocks/header/__social-link/header__social-link.css);
+@import url(../blocks/header/__logo-social/header__logo-social.css);
+
+/*-----main-----*/
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__image/main__image.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__line/main__line.css);
+@import url(../blocks/main/__sub-title/main__sub-title.css);
+@import url(../blocks/main/__link-button/main__link-button.css);
+@import url(../blocks/main/__link-title/main__link-title.css);
 /*-----footer-----*/
 @import url(../blocks/footer/footer.css);
 /*-----link-opacity-----*/

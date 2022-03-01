@@ -1,0 +1,13 @@
+.main__sub-title {
+  font-family: "Vollkorn Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  height: 60px;
+
+  width: 416px;
+  margin: 0 auto 49px;
+}
