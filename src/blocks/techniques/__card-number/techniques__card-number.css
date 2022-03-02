@@ -1,0 +1,14 @@
+.techniques__card-number {
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  align-self: flex-start;
+  width: 100%;
+  text-transform: uppercase;
+  color: rgba(50, 50, 50, 0.09);
+
+  margin: 0;
+  border-bottom: 1px rgba(50, 50, 50, 0.13) solid;
+}

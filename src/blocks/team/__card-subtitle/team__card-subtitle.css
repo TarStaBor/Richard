@@ -1,0 +1,10 @@
+.team__card-subtitle {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Vollkorn Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #4d4d4d;
+}

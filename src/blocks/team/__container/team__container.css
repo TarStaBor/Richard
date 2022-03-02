@@ -1,0 +1,6 @@
+.team__container {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  column-gap: 20px;
+}

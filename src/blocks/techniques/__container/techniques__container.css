@@ -1,0 +1,7 @@
+.techniques__container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 287px);
+  grid-template-rows: repeat(1, 284px);
+  gap: 33px;
+}

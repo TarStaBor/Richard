@@ -1,0 +1,14 @@
+.techniques__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 284px;
+
+  align-self: center;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 2%;
+}
+.techniques__card:hover {
+  box-shadow: 0 0 15px 5px rgba(77, 77, 77, 0.4);
+}

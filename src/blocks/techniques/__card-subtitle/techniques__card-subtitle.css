@@ -1,0 +1,13 @@
+.techniques__card-subtitle {
+  width: 280px;
+  color: rgba(77, 77, 77, 1);
+
+  margin: 0;
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+}

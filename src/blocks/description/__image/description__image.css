@@ -1,11 +1,11 @@
-.main__image {
-  background-image: url("../../../images/main_image.jpg");
+.description__image {
+  background-image: url("../../../images/description_image.jpg");
   width: 100%;
   min-height: 497px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  display: block;
+
   z-index: -1;
 }

@@ -1,0 +1,10 @@
+.techniques {
+  background-color: #c7aa8b;
+  width: 100%;
+  /* min-height: 500px; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding-top: 58px;
+  padding-bottom: 83px;
+}

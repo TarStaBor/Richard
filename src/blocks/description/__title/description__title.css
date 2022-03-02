@@ -1,4 +1,4 @@
-.main__title {
+.description__title {
   font-family: RobotoCondensed, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -6,10 +6,10 @@
   line-height: 66px;
   text-align: center;
   text-transform: uppercase;
-
   color: #fff;
   height: 60px;
-
   width: 639px;
-  margin: 69px auto 112px;
+  padding-top: 69px;
+  margin: 0 auto 112px;
+  /* border: 1px red solid; */
 }

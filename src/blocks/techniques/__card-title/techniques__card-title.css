@@ -1,0 +1,12 @@
+.techniques__card-title {
+  margin: 0;
+  color: rgba(77, 77, 77, 1);
+  margin: 22px auto 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}

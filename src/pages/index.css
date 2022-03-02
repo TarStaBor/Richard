@@ -11,15 +11,39 @@
 @import url(../blocks/header/__page-link/header__page-link.css);
 @import url(../blocks/header/__social-link/header__social-link.css);
 @import url(../blocks/header/__logo-social/header__logo-social.css);
+/*-----content-----*/
+@import url(../blocks/content/content.css);
+/*-----description-----*/
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__image/description__image.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__line/description__line.css);
+@import url(../blocks/description/__sub-title/description__sub-title.css);
+@import url(../blocks/description/__link-button/description__link-button.css);
+/*-----techniques-----*/
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/__container/techniques__container.css);
+@import url(../blocks/techniques/__card/techniques__card.css);
+@import url(../blocks/techniques/__card-number/techniques__card-number.css);
 
-/*-----main-----*/
-@import url(../blocks/main/main.css);
-@import url(../blocks/main/__image/main__image.css);
-@import url(../blocks/main/__title/main__title.css);
-@import url(../blocks/main/__line/main__line.css);
-@import url(../blocks/main/__sub-title/main__sub-title.css);
-@import url(../blocks/main/__link-button/main__link-button.css);
-@import url(../blocks/main/__link-title/main__link-title.css);
+@import url(../blocks/techniques/__card-title/techniques__card-title.css);
+@import url(../blocks/techniques/__card-logo/techniques__card-logo.css);
+@import url(../blocks/techniques/__card-subtitle/techniques__card-subtitle.css);
+/*-----tagline-----*/
+@import url(../blocks/tagline/tagline.css);
+@import url(../blocks/tagline/__image/tagline__image.css);
+@import url(../blocks/tagline/__title/tagline__title.css);
+@import url(../blocks/tagline/__line/tagline__line.css);
+/*-----team-----*/
+@import url(../blocks/team/__card-photo/team__card-photo.css);
+@import url(../blocks/team/__card-subtitle/team__card-subtitle.css);
+@import url(../blocks/team/__card-title/team__card-title.css);
+@import url(../blocks/team/__card/team__card.css);
+@import url(../blocks/team/__container/team__container.css);
+@import url(../blocks/team/__social-link/team__social-link.css);
+@import url(../blocks/team/__social-links/team__social-links.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/team.css);
 /*-----footer-----*/
 @import url(../blocks/footer/footer.css);
 /*-----link-opacity-----*/

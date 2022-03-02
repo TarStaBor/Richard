@@ -1,9 +1,7 @@
-.main__link-title {
-  border: 1px red solid;
-
+.description__link-button {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   font-family: RobotoCondensed, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -12,4 +10,9 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  position: relative;
+  width: 132px;
+  height: 38px;
+  border: 2px solid #fff;
+  margin: 0 auto;
 }

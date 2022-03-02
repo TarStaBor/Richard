@@ -13,13 +13,13 @@
           <img src="<%=require('./images/logo.svg')%>" class="header__logo" alt="Логотип" />
           <p class="header__logo-title">STONE</p>
           <div class="header__page-links">
-            <a href="#" class="header__page-link link-opacity">HOME</a>
-            <a href="#" class="header__page-link link-opacity">WORK</a>
-            <a href="#" class="header__page-link link-opacity">CONTACT</a>
+            <a href="#" class="header__page-link">HOME</a>
+            <a href="#" class="header__page-link">WORK</a>
+            <a href="#" class="header__page-link">CONTACT</a>
           </div>
         </div>
         <div class="header__page-links">
-          <a href="#" class="header__social-link link-opacity"
+          <a href="#" class="header__social-link"
             ><svg width="9" height="15" viewBox="0 0 9 15" xmlns="http://www.w3.org/2000/svg">
               <path
                 id="test"
@@ -39,14 +39,122 @@
           </a>
         </div>
       </header>
-      <section class="main"><img class="main__image" /></section>
-      <h1 class="main__title">We keep things clean and simple</h1>
-      <div class="main__line"></div>
-      <h2 class="main__sub-title">So clean you’ll go crazy wondering why it’s so clean.</h2>
-      <div class="main__link-button link-opacity">
-        <a href="#" class="main__link-title">SEE OUR WORK</a>
-      </div>
+      <main class="content">
+        <section class="description">
+          <img class="description__image" />
+          <h1 class="description__title">We keep things clean and simple</h1>
+          <div class="description__line"></div>
+          <h2 class="description__sub-title">So clean you’ll go crazy wondering why it’s so clean.</h2>
 
+          <a href="#" class="description__link-button link-opacity">SEE OUR WORK</a>
+        </section>
+
+        <section class="techniques">
+          <div class="techniques__container">
+            <div class="techniques__card">
+              <p class="techniques__card-number">001</p>
+              <h2 class="techniques__card-title">research</h2>
+              <img src="<%=require('./images/research.svg')%>" class="techniques__card-logo" alt="Логотип" />
+              <h3 class="techniques__card-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.
+              </h3>
+            </div>
+            <div class="techniques__card">
+              <p class="techniques__card-number">002</p>
+              <h2 class="techniques__card-title">build</h2>
+              <img src="<%=require('./images/build.svg')%>" class="techniques__card-logo" alt="Логотип" />
+              <h3 class="techniques__card-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.
+              </h3>
+            </div>
+            <div class="techniques__card">
+              <p class="techniques__card-number">003</p>
+              <h2 class="techniques__card-title">optimize</h2>
+              <img src="<%=require('./images/optimize.svg')%>" class="techniques__card-logo" alt="Логотип" />
+              <h3 class="techniques__card-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section class="tagline">
+          <img class="tagline__image" />
+          <div>
+            <h2 class="tagline__title">
+              The design process, at its best, integrates the aspirations of art, science, and culture.
+            </h2>
+            <div class="tagline__line"></div>
+          </div>
+        </section>
+        <section class="team">
+          <h2 class="team__title">The team</h2>
+          <div class="team__container">
+            <div class="team__card">
+              <img
+                src="<%=require('./images/Peter_Walkin.jpg')%>"
+                class="team__card-photo"
+                alt="Фотография Питера Волкина"
+              />
+              <h2 class="team__card-title">Peter Walkin</h2>
+              <h2 class="team__card-subtitle">Founder</h2>
+              <div class="team__social-links">
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/facebook.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/twitter.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/linkedin.svg')%>"
+                /></a>
+              </div>
+            </div>
+            <div class="team__card">
+              <img
+                src="<%=require('./images/Robert_Porter.jpg')%>"
+                class="team__card-photo"
+                alt="Фотография Питера Волкина"
+              />
+              <h2 class="team__card-title">Robert Porter</h2>
+              <h2 class="team__card-subtitle">Developer</h2>
+              <div class="team__social-links">
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/facebook.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/twitter.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/linkedin.svg')%>"
+                /></a>
+              </div>
+            </div>
+            <div class="team__card">
+              <img
+                src="<%=require('./images/Dina_Johnson.jpg')%>"
+                class="team__card-photo"
+                alt="Фотография Питера Волкина"
+              />
+              <h2 class="team__card-title">Dina Johnson</h2>
+              <h2 class="team__card-subtitle">Designer</h2>
+              <div class="team__social-links">
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/facebook.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/be.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/dreeble.svg')%>"
+                /></a>
+                <a href="#" class="link-opacity"
+                  ><img class="team__social-link" src="<%=require('./images/instagramm.svg')%>"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
       <!-- <footer class="footer"></footer> -->
     </div>
   </body>

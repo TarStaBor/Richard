@@ -1,0 +1,13 @@
+.tagline__title {
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 47px;
+  line-height: 55px;
+
+  color: rgba(199, 170, 139, 1);
+
+  width: 842px;
+
+  margin: 0;
+}

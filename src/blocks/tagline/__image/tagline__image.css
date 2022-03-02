@@ -1,0 +1,11 @@
+.tagline__image {
+  background-image: url("../../../images/tagline_image.jpg");
+  width: 100%;
+  min-height: 394px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+
+  z-index: -1;
+}
