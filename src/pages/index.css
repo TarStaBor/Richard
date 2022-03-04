@@ -44,7 +44,22 @@
 @import url(../blocks/team/__social-links/team__social-links.css);
 @import url(../blocks/team/__title/team__title.css);
 @import url(../blocks/team/team.css);
+
+/*-----testimonials-----*/
+@import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/testimonials/__title/testimonials__title.css);
+@import url(../blocks/testimonials/__line/testimonials__line.css);
+@import url(../blocks/testimonials/__columns/testimonials__columns.css);
+@import url(../blocks/testimonials/__column/testimonials__column.css);
+@import url(../blocks/testimonials/__text/testimonials__text.css);
+@import url(../blocks/testimonials/__author/testimonials__author.css);
+
 /*-----footer-----*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo-img/footer__logo-img.css);
+@import url(../blocks/footer/__logo-title/footer__logo-title.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__adress/footer__adress.css);
 /*-----link-opacity-----*/
 @import url(../blocks/link-opacity/link-opacity.css);

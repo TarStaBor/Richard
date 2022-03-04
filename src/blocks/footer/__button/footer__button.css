@@ -1,0 +1,17 @@
+.footer__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c7aa8b;
+  position: relative;
+  width: 300px;
+  height: 36px;
+  border: 2px solid #c7aa8b;
+}

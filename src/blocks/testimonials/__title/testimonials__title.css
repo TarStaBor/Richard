@@ -1,0 +1,11 @@
+.testimonials__title {
+  margin: 0 0 16px;
+  text-align: center;
+  color: rgba(50, 50, 50, 0.36);
+  padding-top: 79px;
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}

@@ -1,0 +1,6 @@
+.testimonials__line {
+  margin: 0 auto;
+  width: 60px;
+  height: 46px;
+  border-top: 2px rgba(50, 50, 50, 0.18) solid;
+}

@@ -1,0 +1,16 @@
+.testimonials__author {
+  margin: 1px 0 0;
+  text-align: center;
+  color: #c7aa8b;
+  font-family: RobotoCondensed, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.testimonials__column:nth-child(2) .testimonials__author {
+  margin: 21px 0 0;
+  font-size: 14px;
+}
